@@ -1,0 +1,21 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node ./node_modules/.bin/tsc",
+    "test": "node ./node_modules/.bin/jasmine-node --color ./spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rx": "^4.1.0",
+    "tsc": "^1.20150623.0",
+    "tsd": "^0.6.5"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-node": "^1.14.5"
+  }
+}
