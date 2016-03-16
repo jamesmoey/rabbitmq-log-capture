@@ -6,7 +6,8 @@
   "scripts": {
     "pretest": "node ./node_modules/.bin/tsc",
     "test": "node ./node_modules/.bin/jasmine-node --color ./spec",
-    "postinstall": "node ./node_modules/.bin/tsd install"
+    "postinstall": "node ./node_modules/.bin/tsd install",
+    "start": "node src/index.ts"
   },
   "author": "",
   "license": "ISC",
