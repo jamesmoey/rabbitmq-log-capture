@@ -7,14 +7,17 @@
     "pretest": "node ./node_modules/.bin/tsc",
     "test": "node ./node_modules/.bin/jasmine-node --color ./spec",
     "postinstall": "node ./node_modules/.bin/tsd install",
-    "start": "node src/index.ts"
+    "prestart": "node ./node_modules/.bin/tsc",
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.9.0",
+    "rabbit.js": "^0.4.4",
     "rx": "^4.1.0",
-    "tsc": "^1.20150623.0",
-    "tsd": "^0.6.5"
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.7"
   },
   "devDependencies": {
     "jasmine": "^2.4.1",

@@ -8,10 +8,13 @@
     "jasmine/jasmine.d.ts": {
       "commit": "2f47c75835b837777a85287611703d683b0aaa83"
     },
-    "rx/rx.d.ts": {
+    "rabbit.js/rabbit.js.d.ts": {
       "commit": "2f47c75835b837777a85287611703d683b0aaa83"
     },
-    "rx/rx-lite.d.ts": {
+    "node/node.d.ts": {
+      "commit": "2f47c75835b837777a85287611703d683b0aaa83"
+    },
+    "commander/commander.d.ts": {
       "commit": "2f47c75835b837777a85287611703d683b0aaa83"
     }
   }
